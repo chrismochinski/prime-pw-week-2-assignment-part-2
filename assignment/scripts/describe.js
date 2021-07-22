@@ -211,15 +211,23 @@ const minAge = 21;
 //    if minAge is less than or equal to age" as represented more
 //    accurately in the code
 
+// I would replace the following with:
+// if (age >= minAge)
 if(minAge <= age) {
   console.log('no entry');
 
 // FIX - instructions are correct about age being equal to minAge, but
-//    console log output is incorrect in Instructions.
+//    console log output is incorrect.
 //    we would actually console log 'no entry'
-//    To follow instructions, switch the two console log results
+//    To follow instructions, switch the two console log results (no entry and enter)
 
 } else {
   console.log('enter');
 }
 */
+
+// FINAL NOTE - I spent a little time on researching var vs let vs const
+// Beyond the week 2 videos, I looked here:
+// https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+// I do hope my mentions in the above fixes of let vs const are accurate!
+// Very interested in feedback on this.
